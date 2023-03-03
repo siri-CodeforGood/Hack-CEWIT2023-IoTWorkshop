@@ -1,13 +1,14 @@
 #include "DHT.h"
-
-
-#define DHTPIN1 D1
-#define DHTTYPE DHT11
-
 #include "Ubidots.h"
-#define TOKEN "BBFF-Ds3HqkwyQKuzS37o7EphxTTcJ8uRLT" // Put here your Ubidots TOKEN
-#define WIFISSID "iPhone"
-#define PASSWORD "Sasta89*"
+
+
+#define DHTPIN1 D1 //PIN for Data collection
+#define DHTTYPE DHT11 // Sensor Type
+
+
+#define TOKEN "BBFF-Ds3HqkwyQKuzS37o7EphxTTcJ8uRLT" // Put your Ubidots API TOKEN here
+#define WIFISSID "XXXXX" //Insert Network Name.
+#define PASSWORD "XXXXX" //Insert Network Password here.
 Ubidots client(TOKEN);
 
 
